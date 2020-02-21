@@ -53,7 +53,7 @@ There are no gNB and UE for standalone 5GC available in the market yet.
             - ```echo 'export GOPATH=$HOME/go' >> ~/.bashrc```
             - ```echo 'export GOROOT=/usr/local/go' >> ~/.bashrc```
             - ```echo 'export PATH=$PATH:$GOPATH/bin:$GOROOT/bin' >> ~/.bashrc```
-            - ```echo 'export GO111MODULE=off' >> ~/.bashrc```
+            - ```echo 'export GO111MODULE=on' >> ~/.bashrc```
             - ```source ~/.bashrc```
 
 3. Clone free5GC project in `$GOPATH/src`
