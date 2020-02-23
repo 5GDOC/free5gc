@@ -36,12 +36,8 @@ then
     exit 1
 fi
 
-GOPATH=$HOME/go
-if [ $OS == "Ubuntu" ]; then
-    GOROOT=/usr/local/go
-elif [ $OS == "Fedora" ]; then
-    GOROOT=/usr/lib/golang
-fi
+#GOPATH=$GOPATH
+#GOROOT=$GOROOT
 PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 GO111MODULE=off
 
